@@ -40,18 +40,24 @@
 ]]></content>
   </entry>
   <entry>
-    <title>个人博客搭建</title>
-    <url>/2023/04/18/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</url>
-    <content><![CDATA[<p>架构：hexo + github +netlify</p>
-<p>本篇文章只是应用hexo框架成功搭建了静态博客，使用户能够在互联网上访问，博客评论系统gitalk也还未解决，故用韩国评论系统<a href="https://livere.com/">liverre</a>代替。本文未深入美化博客，未使用CDN加速。</p>
+    <title>Hello World</title>
+    <url>/2023/04/01/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
 <span id="more"></span>
+
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
-      <categories>
-        <category>Blog</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
   </entry>
   <entry>
     <title>kali的安装</title>
@@ -63,19 +69,19 @@
 <h2 id="二、环境搭建"><a href="#二、环境搭建" class="headerlink" title="二、环境搭建"></a>二、环境搭建</h2><p>以下环境均为虚拟机环境</p>
 <p>虚拟机软件：VMware Workstation Pro</p>
 <h2 id="三、安装步骤"><a href="#三、安装步骤" class="headerlink" title="三、安装步骤"></a>三、安装步骤</h2><p>一些步骤将省略，根据自己需求和语言提示点击继续即可，以下只展示令人犹豫的配置</p>
-<h3 id="1-kali虚拟机配置"><a href="#1-kali虚拟机配置" class="headerlink" title="1. kali虚拟机配置"></a>1. kali虚拟机配置</h3><p><img src="/..%5C000-images%5Ckali%E7%9A%84%E5%AE%89%E8%A3%85%5C001.png" alt="kali虚拟机配置"></p>
-<h3 id="2-安装方式选择"><a href="#2-安装方式选择" class="headerlink" title="2. 安装方式选择"></a>2. 安装方式选择</h3><p><img src="/%5C000-images%5Ckali%E7%9A%84%E5%AE%89%E8%A3%85%5C002.png" alt="安装方式"></p>
+<h3 id="1-kali虚拟机配置"><a href="#1-kali虚拟机配置" class="headerlink" title="1. kali虚拟机配置"></a>1. kali虚拟机配置</h3><p><img src="/000-images/kali%E7%9A%84%E5%AE%89%E8%A3%85/001.png" alt="kali虚拟机配置"></p>
+<h3 id="2-安装方式选择"><a href="#2-安装方式选择" class="headerlink" title="2. 安装方式选择"></a>2. 安装方式选择</h3><p><img src="/000-images/kali%E7%9A%84%E5%AE%89%E8%A3%85/002.png" alt="安装方式"></p>
 <h3 id="3-选择安装语言"><a href="#3-选择安装语言" class="headerlink" title="3. 选择安装语言"></a>3. 选择安装语言</h3><p>kali支持简体中文，在这步执行后将直接使用简体中文的kali，后续需要使用其他语言也能在设置里面改</p>
-<p><img src="/%5C000-images%5Ckali%E7%9A%84%E5%AE%89%E8%A3%85%5C003.png" alt="选择语言"></p>
+<p><img src="/000-images/kali%E7%9A%84%E5%AE%89%E8%A3%85/003.png" alt="选择语言"></p>
 <h3 id="4-主机名与配置网络"><a href="#4-主机名与配置网络" class="headerlink" title="4. 主机名与配置网络"></a>4. 主机名与配置网络</h3><p>主机名根据自己喜好来命名即可，网络配置的域名可要可不要</p>
-<p><img src="/%5C000-images%5Ckali%E7%9A%84%E5%AE%89%E8%A3%85%5C004.png" alt="主机名与网络配置"></p>
+<p><img src="/000-images/kali%E7%9A%84%E5%AE%89%E8%A3%85/004.png" alt="主机名与网络配置"></p>
 <h3 id="5-磁盘分区"><a href="#5-磁盘分区" class="headerlink" title="5. 磁盘分区"></a>5. 磁盘分区</h3><p>刚接触kali或Linux操作系统，循规蹈矩按照语言提示选择，熟练后可以选择自己来分配磁盘空间</p>
-<p><img src="/%5C000-images%5Ckali%E7%9A%84%E5%AE%89%E8%A3%85%5C005.png" alt="磁盘分区"></p>
+<p><img src="/000-images/kali%E7%9A%84%E5%AE%89%E8%A3%85/005.png" alt="磁盘分区"></p>
 <h3 id="6-软件安装"><a href="#6-软件安装" class="headerlink" title="6. 软件安装"></a>6. 软件安装</h3><p>下图画框的三个软件皆是桌面管理器（可以理解为主题），全部勾选安装，后续会卡在“正在设定gdm3”这个步骤，故默认即可，或三选一，即（Xfce、KDE、GNOM）</p>
-<p><img src="/%5C000-images%5Ckali%E7%9A%84%E5%AE%89%E8%A3%85%5C006.png" alt="软件安装"></p>
-<h3 id="7-安装GRUB启动引导器"><a href="#7-安装GRUB启动引导器" class="headerlink" title="7. 安装GRUB启动引导器"></a>7. 安装GRUB启动引导器</h3><p><img src="/%5C000-images%5Ckali%E7%9A%84%E5%AE%89%E8%A3%85%5C007.png" alt="安装GRUB启动"></p>
+<p><img src="/000-images/kali%E7%9A%84%E5%AE%89%E8%A3%85/006.png" alt="软件安装"></p>
+<h3 id="7-安装GRUB启动引导器"><a href="#7-安装GRUB启动引导器" class="headerlink" title="7. 安装GRUB启动引导器"></a>7. 安装GRUB启动引导器</h3><p><img src="/000-images/kali%E7%9A%84%E5%AE%89%E8%A3%85/007.png" alt="安装GRUB启动"></p>
 <h2 id="四、安装完成"><a href="#四、安装完成" class="headerlink" title="四、安装完成"></a>四、安装完成</h2><p>重启即可正常使用kali，由于环境是虚拟环境，建议做好快照（建议关机后做快照，至于何时做根据自己需求)</p>
-<p><img src="/%5C000-images%5Ckali%E7%9A%84%E5%AE%89%E8%A3%85%5C008.png" alt="安装完成"></p>
+<p><img src="/000-images/kali%E7%9A%84%E5%AE%89%E8%A3%85/008.png" alt="安装完成"></p>
 <h2 id="五、将软件仓库镜像源为国内镜像源"><a href="#五、将软件仓库镜像源为国内镜像源" class="headerlink" title="五、将软件仓库镜像源为国内镜像源"></a>五、将软件仓库镜像源为国内镜像源</h2><p>在使用 kali 进行软件安装和更新的时候总是很慢，是因为 linux 系统默认使用的软件源都是国外源，国内访问速度过慢，所以一般使用 linux 的话都需要建议改为国内镜像源。以下以将镜像源修改为<strong>清华源</strong>为例，如需要更换为其他源直接百度即可。</p>
 <h3 id="1-手动替换"><a href="#1-手动替换" class="headerlink" title="1. 手动替换"></a>1. 手动替换</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_">#</span><span class="language-bash">编辑 /etc/apt/sources.list 文件</span></span><br><span class="line">sudo vim /etc/apt/source.list</span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash">在文件最前面添加以下条目</span></span><br><span class="line">deb https://mirrors.tuna.tsinghua.edu.cn/kali kali-rolling main non-free contrib</span><br><span class="line">deb-src https://mirrors.tuna.tsinghua.edu.cn/kali kali-rolling main non-free contrib</span><br></pre></td></tr></table></figure>
 
@@ -108,23 +114,17 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2023/04/01/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+    <title>个人博客搭建</title>
+    <url>/2023/04/18/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</url>
+    <content><![CDATA[<p>架构：hexo + github +netlify</p>
+<p>本篇文章只是应用hexo框架成功搭建了静态博客，使用户能够在互联网上访问，博客评论系统gitalk也还未解决，故用韩国评论系统<a href="https://livere.com/">liverre</a>代替。本文未深入美化博客，未使用CDN加速。</p>
 <span id="more"></span>
-
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
+      <categories>
+        <category>Blog</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
   </entry>
 </search>
