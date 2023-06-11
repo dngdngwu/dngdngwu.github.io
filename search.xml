@@ -28,18 +28,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>网络基础</title>
-    <url>/2023/05/13/01%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80/</url>
-    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>涉及内容：网络协议、网络模型、网络类型、传输介质和通信方式。</p>
-<span id="more"></span>
-
-<h3 id="网络协议与标准机构"><a href="#网络协议与标准机构" class="headerlink" title="网络协议与标准机构"></a>网络协议与标准机构</h3><p>我们使用汉语、英语等这类自然语言进行思想沟通和交流.而从网络通信看，我们使用的自然语言相当于网络通信中的各种通信协议。计算机和交换机等网络设备为了实现通信就必须遵守定义好的一系列规则和约定（协议）。而网络通信协议可分为两类</p>
-]]></content>
-      <tags>
-        <tag>network</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/2023/04/01/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -60,17 +48,15 @@
 ]]></content>
   </entry>
   <entry>
-    <title>个人博客搭建</title>
-    <url>/2023/04/18/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</url>
-    <content><![CDATA[<p>架构：hexo + github +netlify</p>
-<p>本篇文章只是应用hexo框架成功搭建了静态博客，使用户能够在互联网上访问，博客评论系统gitalk也还未解决，故用韩国评论系统<a href="https://livere.com/">liverre</a>代替。本文未深入美化博客，未使用CDN加速。</p>
+    <title>网络基础</title>
+    <url>/2023/05/13/01%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80/</url>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>涉及内容：网络协议、网络模型、网络类型、传输介质和通信方式。</p>
 <span id="more"></span>
+
+<h3 id="网络协议与标准机构"><a href="#网络协议与标准机构" class="headerlink" title="网络协议与标准机构"></a>网络协议与标准机构</h3><p>我们使用汉语、英语等这类自然语言进行思想沟通和交流.而从网络通信看，我们使用的自然语言相当于网络通信中的各种通信协议。计算机和交换机等网络设备为了实现通信就必须遵守定义好的一系列规则和约定（协议）。而网络通信协议可分为两类</p>
 ]]></content>
-      <categories>
-        <category>Blog</category>
-      </categories>
       <tags>
-        <tag>hexo</tag>
+        <tag>network</tag>
       </tags>
   </entry>
   <entry>
@@ -83,7 +69,7 @@
 <h2 id="二、环境搭建"><a href="#二、环境搭建" class="headerlink" title="二、环境搭建"></a>二、环境搭建</h2><p>以下环境均为虚拟机环境</p>
 <p>虚拟机软件：VMware Workstation Pro</p>
 <h2 id="三、安装步骤"><a href="#三、安装步骤" class="headerlink" title="三、安装步骤"></a>三、安装步骤</h2><p>一些步骤将省略，根据自己需求和语言提示点击继续即可，以下只展示令人犹豫的配置</p>
-<h3 id="1-kali虚拟机配置"><a href="#1-kali虚拟机配置" class="headerlink" title="1. kali虚拟机配置"></a>1. kali虚拟机配置</h3><p><img src="/..%5C000-images%5Ckali%E7%9A%84%E5%AE%89%E8%A3%85%5C001.png" alt="kali虚拟机配置"></p>
+<h3 id="1-kali虚拟机配置"><a href="#1-kali虚拟机配置" class="headerlink" title="1. kali虚拟机配置"></a>1. kali虚拟机配置</h3><p><img src="/%5C000-images%5Ckali%E7%9A%84%E5%AE%89%E8%A3%85%5C001.png" alt="kali虚拟机配置"></p>
 <h3 id="2-安装方式选择"><a href="#2-安装方式选择" class="headerlink" title="2. 安装方式选择"></a>2. 安装方式选择</h3><p><img src="/%5C000-images%5Ckali%E7%9A%84%E5%AE%89%E8%A3%85%5C002.png" alt="安装方式"></p>
 <h3 id="3-选择安装语言"><a href="#3-选择安装语言" class="headerlink" title="3. 选择安装语言"></a>3. 选择安装语言</h3><p>kali支持简体中文，在这步执行后将直接使用简体中文的kali，后续需要使用其他语言也能在设置里面改</p>
 <p><img src="/%5C000-images%5Ckali%E7%9A%84%E5%AE%89%E8%A3%85%5C003.png" alt="选择语言"></p>
@@ -125,6 +111,20 @@
       <tags>
         <tag>linux</tag>
         <tag>kali</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>个人博客搭建</title>
+    <url>/2023/04/18/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</url>
+    <content><![CDATA[<p>架构：hexo + github +netlify</p>
+<p>本篇文章只是应用hexo框架成功搭建了静态博客，使用户能够在互联网上访问，博客评论系统gitalk也还未解决，故用韩国评论系统<a href="https://livere.com/">liverre</a>代替。本文未深入美化博客，未使用CDN加速。</p>
+<span id="more"></span>
+]]></content>
+      <categories>
+        <category>Blog</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
       </tags>
   </entry>
 </search>
