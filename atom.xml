@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>KuMiao</title>
+  
+  <subtitle>无事一身轻</subtitle>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2023-06-11T18:06:23.427Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>KuMiao</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>kali的安装</title>
+    <link href="http://example.com/2023/06/12/kali%E7%9A%84%E5%AE%89%E8%A3%85/"/>
+    <id>http://example.com/2023/06/12/kali%E7%9A%84%E5%AE%89%E8%A3%85/</id>
+    <published>2023-06-11T17:53:18.000Z</published>
+    <updated>2023-06-11T18:06:23.427Z</updated>
+    
+    <content type="html"><![CDATA[<p>Kali Linux是一个操作系统(2013-03-13诞生)基于Debian Linux的发行版基于包含了约600个安全工具(- 省去了繁琐的安装、编译、配置、更新步骤)（- 为所有工具运行提供了一个稳定一致的操作系统基础）。本篇文章提供安装2023版的安装，不过，kali的安装大同小异，在选择kali的版本尽量选择最新版本。</p><span id="more"></span><h2 id="一、镜像下载"><a href="#一、镜像下载" class="headerlink" title="一、镜像下载"></a>一、镜像下载</h2><p>官网下载：<a href="http://www.kali.org/">www.kali.org</a></p><h2 id="二、环境搭建"><a href="#二、环境搭建" class="headerlink" title="二、环境搭建"></a>二、环境搭建</h2><p>以下环境均为虚拟机环境</p><p>虚拟机软件：VMware Workstation Pro</p><h2 id="三、安装步骤"><a href="#三、安装步骤" class="headerlink" title="三、安装步骤"></a>三、安装步骤</h2><p>一些步骤将省略，根据自己需求和语言提示点击继续即可，以下只展示令人犹豫的配置</p><h3 id="1-kali虚拟机配置"><a href="#1-kali虚拟机配置" class="headerlink" title="1. kali虚拟机配置"></a>1. kali虚拟机配置</h3><p><img src="/%5C000-images%5Ckali%E7%9A%84%E5%AE%89%E8%A3%85%5C001.png" alt="kali虚拟机配置"></p><h3 id="2-安装方式选择"><a href="#2-安装方式选择" class="headerlink" title="2. 安装方式选择"></a>2. 安装方式选择</h3><p><img src="/%5C000-images%5Ckali%E7%9A%84%E5%AE%89%E8%A3%85%5C002.png" alt="安装方式"></p><h3 id="3-选择安装语言"><a href="#3-选择安装语言" class="headerlink" title="3. 选择安装语言"></a>3. 选择安装语言</h3><p>kali支持简体中文，在这步执行后将直接使用简体中文的kali，后续需要使用其他语言也能在设置里面改</p><p><img src="/%5C000-images%5Ckali%E7%9A%84%E5%AE%89%E8%A3%85%5C003.png" alt="选择语言"></p><h3 id="4-主机名与配置网络"><a href="#4-主机名与配置网络" class="headerlink" title="4. 主机名与配置网络"></a>4. 主机名与配置网络</h3><p>主机名根据自己喜好来命名即可，网络配置的域名可要可不要</p><p><img src="/%5C000-images%5Ckali%E7%9A%84%E5%AE%89%E8%A3%85%5C004.png" alt="主机名与网络配置"></p><h3 id="5-磁盘分区"><a href="#5-磁盘分区" class="headerlink" title="5. 磁盘分区"></a>5. 磁盘分区</h3><p>刚接触kali或Linux操作系统，循规蹈矩按照语言提示选择，熟练后可以选择自己来分配磁盘空间</p><p><img src="/%5C000-images%5Ckali%E7%9A%84%E5%AE%89%E8%A3%85%5C005.png" alt="磁盘分区"></p><h3 id="6-软件安装"><a href="#6-软件安装" class="headerlink" title="6. 软件安装"></a>6. 软件安装</h3><p>下图画框的三个软件皆是桌面管理器（可以理解为主题），全部勾选安装，后续会卡在“正在设定gdm3”这个步骤，故默认即可，或三选一，即（Xfce、KDE、GNOM）</p><p><img src="/%5C000-images%5Ckali%E7%9A%84%E5%AE%89%E8%A3%85%5C006.png" alt="软件安装"></p><h3 id="7-安装GRUB启动引导器"><a href="#7-安装GRUB启动引导器" class="headerlink" title="7. 安装GRUB启动引导器"></a>7. 安装GRUB启动引导器</h3><p><img src="/%5C000-images%5Ckali%E7%9A%84%E5%AE%89%E8%A3%85%5C007.png" alt="安装GRUB启动"></p><h2 id="四、安装完成"><a href="#四、安装完成" class="headerlink" title="四、安装完成"></a>四、安装完成</h2><p>重启即可正常使用kali，由于环境是虚拟环境，建议做好快照（建议关机后做快照，至于何时做根据自己需求)</p><p><img src="/%5C000-images%5Ckali%E7%9A%84%E5%AE%89%E8%A3%85%5C008.png" alt="安装完成"></p><h2 id="五、将软件仓库镜像源为国内镜像源"><a href="#五、将软件仓库镜像源为国内镜像源" class="headerlink" title="五、将软件仓库镜像源为国内镜像源"></a>五、将软件仓库镜像源为国内镜像源</h2><p>在使用 kali 进行软件安装和更新的时候总是很慢，是因为 linux 系统默认使用的软件源都是国外源，国内访问速度过慢，所以一般使用 linux 的话都需要建议改为国内镜像源。以下以将镜像源修改为<strong>清华源</strong>为例，如需要更换为其他源直接百度即可。</p><h3 id="1-手动替换"><a href="#1-手动替换" class="headerlink" title="1. 手动替换"></a>1. 手动替换</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_">#</span><span class="language-bash">编辑 /etc/apt/sources.list 文件</span></span><br><span class="line">sudo vim /etc/apt/source.list</span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash">在文件最前面添加以下条目</span></span><br><span class="line">deb https://mirrors.tuna.tsinghua.edu.cn/kali kali-rolling main non-free contrib</span><br><span class="line">deb-src https://mirrors.tuna.tsinghua.edu.cn/kali kali-rolling main non-free contrib</span><br></pre></td></tr></table></figure><h3 id="2-sed替换"><a href="#2-sed替换" class="headerlink" title="2. sed替换"></a>2. sed替换</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo sed -i &quot;s@http://http.kali.org/kali@https://mirrors.tuna.tsinghua.edu.cn/kali@g&quot; /etc/apt/sources.list</span><br></pre></td></tr></table></figure><p>无论你用哪种方法修改镜像源，修改后都需执行以下命令:</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo apt clean</span><br><span class="line">sudo apt update</span><br><span class="line">sudo apt upgrade</span><br></pre></td></tr></table></figure><h2 id="六、使用root用户"><a href="#六、使用root用户" class="headerlink" title="六、使用root用户"></a>六、使用root用户</h2><h3 id="1-通过提权在命令行中切换至root用户"><a href="#1-通过提权在命令行中切换至root用户" class="headerlink" title="1. 通过提权在命令行中切换至root用户"></a>1. 通过提权在命令行中切换至root用户</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo su root</span><br><span class="line">#也能直接使用 sudo su</span><br></pre></td></tr></table></figure><h3 id="2-GUI界面登录root"><a href="#2-GUI界面登录root" class="headerlink" title="2. GUI界面登录root"></a>2. GUI界面登录root</h3><p>通过修改root密码后，注销登录root</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#修改密码</span><br><span class="line">sudo passwd root</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;Kali Linux是一个操作系统(2013-03-13诞生)基于Debian Linux的发行版基于包含了约600个安全工具(- 省去了繁琐的安装、编译、配置、更新步骤)（- 为所有工具运行提供了一个稳定一致的操作系统基础）。本篇文章提供安装2023版的安装，不过，kali的安装大同小异，在选择kali的版本尽量选择最新版本。&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="linux" scheme="http://example.com/tags/linux/"/>
+    
+    <category term="kali" scheme="http://example.com/tags/kali/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>网络基础</title>
+    <link href="http://example.com/2023/05/13/01%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80/"/>
+    <id>http://example.com/2023/05/13/01%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80/</id>
+    <published>2023-05-13T11:23:24.000Z</published>
+    <updated>2023-05-14T07:54:34.584Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>涉及内容：网络协议、网络模型、网络类型、传输介质和通信方式。</p><span id="more"></span><h3 id="网络协议与标准机构"><a href="#网络协议与标准机构" class="headerlink" title="网络协议与标准机构"></a>网络协议与标准机构</h3><p>我们使用汉语、英语等这类自然语言进行思想沟通和交流.而从网络通信看，我们使用的自然语言相当于网络通信中的各种通信协议。计算机和交换机等网络设备为了实现通信就必须遵守定义好的一系列规则和约定（协议）。而网络通信协议可分为两类</p>]]></content>
+    
+    
+    <summary type="html">&lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h3&gt;&lt;p&gt;涉及内容：网络协议、网络模型、网络类型、传输介质和通信方式。&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="network" scheme="http://example.com/tags/network/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python入门day01</title>
+    <link href="http://example.com/2023/04/25/Python%E5%85%A5%E9%97%A8day01/"/>
+    <id>http://example.com/2023/04/25/Python%E5%85%A5%E9%97%A8day01/</id>
+    <published>2023-04-25T15:27:59.000Z</published>
+    <updated>2023-04-26T05:49:40.484Z</updated>
+    
+    <content type="html"><![CDATA[<p>###前言</p><p>python是面向对象的高解释性编程语言，与其他语言相比设计更接近英语，更可读。</p><span id="more"></span><p>###<strong>环境搭建</strong></p><p>下载python：<a href="https://www.python.org/">https://www.python.org/</a></p><p>编写代码软件Vs code：<a href="https://code.visualstudio.com/">Visual Studio Code - Code Editing. Redefined</a></p><p>具体安装过程就不演示了，跟安装软件一样。</p><h3 id="输入（input）输出（print）函数"><a href="#输入（input）输出（print）函数" class="headerlink" title="输入（input）输出（print）函数"></a><strong>输入（input）输出（print）函数</strong></h3><p>####print函数的运用</p><ol><li>打印内容</li></ol><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#print函数格式:print(&#x27;内容&#x27;)</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;hello&#x27;</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;hello&quot;</span>)</span><br><span class="line"><span class="built_in">print</span>() <span class="comment">#打印一行空行</span></span><br></pre></td></tr></table></figure><ol start="2"><li>格式化代码</li></ol><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#格式化代码（美化）</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;hello&quot;</span>)</span><br><span class="line"><span class="comment">#print()打印一个空行</span></span><br><span class="line"><span class="built_in">print</span>()</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;world&#x27;</span>)</span><br><span class="line"><span class="comment">#/n 换行作用</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;blank line \nin the middle of tring&#x27;</span>)</span><br></pre></td></tr></table></figure><p>####input函数</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#input函数格式：自定义变量 = input(&#x27;提示用户输入的内容：&#x27;)</span></span><br><span class="line"><span class="comment">#用户输入结果存入name变量中，print打印name结果</span></span><br><span class="line">name = <span class="built_in">input</span>(<span class="string">&#x27;prles: &#x27;</span>)</span><br><span class="line"><span class="built_in">print</span>(name)</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;###前言&lt;/p&gt;
+&lt;p&gt;python是面向对象的高解释性编程语言，与其他语言相比设计更接近英语，更可读。&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>个人博客搭建</title>
+    <link href="http://example.com/2023/04/18/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    <id>http://example.com/2023/04/18/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</id>
+    <published>2023-04-18T13:10:18.000Z</published>
+    <updated>2023-04-23T09:10:49.137Z</updated>
+    
+    <content type="html"><![CDATA[<p>架构：hexo + github +netlify</p><p>本篇文章只是应用hexo框架成功搭建了静态博客，使用户能够在互联网上访问，博客评论系统gitalk也还未解决，故用韩国评论系统<a href="https://livere.com/">liverre</a>代替。本文未深入美化博客，未使用CDN加速。</p><span id="more"></span>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;架构：hexo + github +netlify&lt;/p&gt;
+&lt;p&gt;本篇文章只是应用hexo框架成功搭建了静态博客，使用户能够在互联网上访问，博客评论系统gitalk也还未解决，故用韩国评论系统&lt;a href=&quot;https://livere.com/&quot;&gt;liverre&lt;/a&gt;代替。本文未深入美化博客，未使用CDN加速。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Blog" scheme="http://example.com/categories/Blog/"/>
+    
+    
+    <category term="hexo" scheme="http://example.com/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://example.com/2023/04/01/hello-world/"/>
+    <id>http://example.com/2023/04/01/hello-world/</id>
+    <published>2023-04-01T08:48:32.664Z</published>
+    <updated>2023-04-02T11:19:47.170Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><span id="more"></span><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+</feed>
